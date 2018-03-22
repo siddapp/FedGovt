@@ -32,6 +32,7 @@ import Generic.IAutoconst.IAutoConst;
 			driver=new ChromeDriver();
 			driver.get(appURL);
 			driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
+			
 		}
 		
 		@AfterMethod
