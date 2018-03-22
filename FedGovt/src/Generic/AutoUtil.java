@@ -16,6 +16,7 @@ package Generic;
 		public static String getProperty(String path, String key)
 		{
 			String value="";
+			
 			Properties p=new Properties();
 			try {
 				p.load(new FileInputStream(path));
